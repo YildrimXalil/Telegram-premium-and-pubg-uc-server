@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uz">
+<headlink href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"></headlink>>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Janob Azamatjon Websayti</title>
+
+  <!-- Bootstrap CSS ulanishi -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS (Tungi rejim uchun) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar (yuqoridagi menyu) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Azamatjon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Bosh sahifa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Haqida</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Bog'lanish</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Asosiy bo'lim -->
+  <header class="bg-light text-center py-5">
+    <h1 class="display-4">Xush kelibsiz!</h1>
+    <p class="lead">Bu mening birinchi zamonaviy websaytim</p>
+    
+    <!-- Rasm qo'shish -->
+    <img src="https://via.placeholder.com/600x400" class="img-fluid rounded" alt="Example Image">
+    
+    <br><br>
+    
+    <!-- Tungi rejim uchun tugma -->
+    <button class="btn btn-dark" id="toggleButton">Tungi rejimga o'tish</button>
+  </header>
+
+  <section class="container my-5">
+    <!-- Kontakt Bo‘limi -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Bog'lanish</h2>
+  <form>
+    <div class="mb-3">
+      <label for="ism" class="form-label">Ismingiz</label>
+      <input type="text" class="form-control" id="ism" placeholder="Ismingizni kiriting">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email manzilingiz</label>
+      <input type="email" class="form-control" id="email" placeholder="email@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="xabar" class="form-label">Xabaringiz</label>
+      <textarea class="form-control" id="xabar" rows="4" placeholder="Xabaringizni yozing..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Yuborish</button>
+  </form>
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Xizmatlarimiz</h2>
+    <div class="row">
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card shadow rounded p-3 h-100 text-center">
+          <img src="https://via.placeholder.com/200" class="img-fluid mb-3" alt="Xizmat 1">
+          <h4>Vebsayt yaratish</h4>
+          <p>Biz siz uchun tez va professional vebsayt tayyorlab beramiz.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card shadow rounded p-3 h-100 text-center">
+          <img src="https://via.placeholder.com/200" class="img-fluid mb-3" alt="Xizmat 2">
+          <h4>SEO optimizatsiya</h4>
+          <p>Saytingizni Google’da yuqoriga olib chiqamiz.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card shadow rounded p-3 h-100 text-center">
+          <img src="https://via.placeholder.com/200" class="img-fluid mb-3" alt="Xizmat 3">
+          <h4>Mobil ilova</h4>
+          <p>Android/iOS ilovalarini tayyorlab beramiz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Janob Azamatjon
+  </footer>
+
+  <!-- Bootstrap JS va Custom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

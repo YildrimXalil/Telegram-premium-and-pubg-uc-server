@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+ header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+/* Tungi rejim (dark mode) uchun */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  header.dark-mode {
+    background-color: #333;
+  }
+  
+  /* Rasm va boshqa qismlar */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  button:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    .lead {
+      font-size: 18px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+  img:hover {
+    filter: brightness(1.1);
+    transition: 0.3s;
+  }
+  
